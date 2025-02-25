@@ -14,6 +14,6 @@ int main(){
     std::cout << "Enter the value of n" << std::endl;
     int n;
     std::cin >> n;
-    std::cout << "The factorial of " << n << " is: " << factorialWithRecursion(n) << std::endl;
+    factorialWithRecursion(n);
     return 0;
 }
